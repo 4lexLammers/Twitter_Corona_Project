@@ -83,7 +83,7 @@ def get_all_tweets(screen_name):
 ### Main Funnction: Loop over twitter handle List in .txt file
 ### name of companies should be provided in firmhandles.txt
 if __name__ == '__main__':
-    filepath = '210301_firmhandles.txt'
+    filepath = 'firmhandles.txt'
     file = open(filepath, "r")
     for this_handle in file:
         try:
